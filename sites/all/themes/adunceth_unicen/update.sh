@@ -1,0 +1,2 @@
+compass clean
+compass compile

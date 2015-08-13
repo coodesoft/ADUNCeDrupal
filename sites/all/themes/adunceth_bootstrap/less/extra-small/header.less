@@ -1,0 +1,146 @@
+// Insert your styling here.
+
+header#header-container #background {
+  background: transparent url("../images/bg-header.png") no-repeat scroll center top;
+  background-size: cover;
+  margin: 0 0;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+
+  .branding {
+    margin: 2vw;
+  }
+}
+
+div#header.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header .logo {
+  img{
+    margin: 5vw 0;
+    width: 90%;
+    height: 18.5vw;
+  }
+}
+
+
+#slogan {
+  // display: none;
+  clear:right;
+  float: right;
+  color: white;
+  // position: absolute;
+  // bottom: 1em;
+  // right: 0;
+  text-align: center;
+}
+
+.header-highlights {
+
+  .panel-pane {
+    position: relative;
+  }
+
+  h2.pane-title {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0.5vw;
+    color: #FFF;
+    text-transform: capitalize;
+  }
+
+  .pane-content img {
+    width: 100%;
+    height: 10vw;
+  }
+
+}
+
+
+.mm-menu  {
+
+  > .mm-panel.mm-hasnavbar {
+    border-left: 20px solid #0F346E;
+  }
+  .mm-panel#mm-1 {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+#hamburger
+{
+	box-sizing: border-box;
+	display: block;
+	width: 70px;
+	height: 45px;
+	position: fixed;
+	top: 10px;
+	left: 0;
+	z-index: 4;
+}
+#hamburger:before,
+#hamburger:after,
+#hamburger span
+{
+	background: #fff;
+	content: '';
+	display: block;
+	width: 20px;
+	height: 3px;
+	position: absolute;
+	left: 5px;
+}
+
+@top-distance-hamburger: 0px;
+
+#hamburger:before
+{
+	top: @top-distance-hamburger;
+}
+#hamburger span
+{
+	top: @top-distance-hamburger+6px;
+}
+#hamburger:after
+{
+	top: @top-distance-hamburger+12px;
+}
+
+/* Hamburger animation */
+#hamburger:before,
+#hamburger:after,
+#hamburger span
+{
+	-webkit-transition: none 0.5s ease 0.5s;
+	transition: none 0.5s ease 0.5s;
+
+	-webkit-transition-property: transform, top, bottom, left, opacity;
+	transition-property: transform, top, bottom, left, opacity;
+}
+html.mm-opening #hamburger:before,
+html.mm-opening #hamburger:after
+{
+	top: @top-distance-hamburger+5px;
+}
+html.mm-opening #hamburger{
+  left: -60px;
+  > span {
+  	left: -50px;
+  	opacity: 0;
+  }
+}
+html.mm-opening #hamburger:before
+{
+	transform: rotate( 45deg );
+}
+html.mm-opening #hamburger:after
+{
+	transform: rotate( -45deg );
+}

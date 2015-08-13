@@ -1,0 +1,164 @@
+// Insert your styling here.
+
+h1.page-header {
+  display: none;
+}
+
+
+.region-content {
+
+
+  width: 80%;
+  .center();
+
+  //Contextual menu
+  .content-menu {
+
+
+      .panel-pane {
+        margin: 20px 20% 0 0;
+        .pane-content{
+          // background-color: #3377AA;
+          background-color: white;
+
+          ul.menu {
+
+            > li {
+
+              // border: #3377AA 1px solid;
+              // border-bottom: none;
+              border-bottom: #3377AA 1px solid;
+
+              &.active {
+                background-color: #BBB;
+                a {
+                  color: white;
+                }
+              }
+
+              &.last {
+                // border-bottom: #3377AA 1px solid;
+                border-bottom: none;
+              }
+
+              > a:focus {
+                background: transparent none repeat scroll 0% 0%;
+              }
+
+              > a:hover {
+                // color:white;
+                color: #BBB;
+                background: transparent none repeat scroll 0% 0%;
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+
+      a {
+        // color: #BBB;
+        color: #3377AA;
+        font-weight: 800;
+      }
+
+  }
+
+  //Header Box with title
+
+  div.header-title {
+
+    .panel-pane {
+      padding: 0px;
+      min-height: 10vw;
+      margin: 0px 20% 0 0;
+      position: relative;
+      background-color: #061D47;
+      border: medium none;
+      .pane-content {
+        position: absolute;
+        bottom: 1vw;
+        border-bottom: 0.25em solid #FFF;
+        right: 0px;
+
+        h2 {
+          color: #FFF;
+          margin: 0.5vw;
+        }
+      }
+    }
+
+  }
+
+}
+
+.panel-flexible {
+  margin-top: 30px;
+}
+
+.content-news {
+
+  .view-content {
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 3.33%;
+    .views-row {
+      padding:1vw;
+      background-color: rgba(255,255,255,0.5);
+      width: 48%;
+      min-height: 20vw;
+      margin-bottom: 2vw;
+      padding-top: 3vw;
+      position:relative;
+
+      > span.views-field:nth-of-type(1){
+        position: absolute;
+        top: 0px;
+        background-color: #4590E9;
+        left: 0px;
+        width: 100%;
+        min-height: 2vw;
+        padding: 0.5vw;
+        color:white;
+        &::before {
+          display: inline;
+          // margin-left: 1vw;
+        }
+        > div {
+          font-weight:bold;
+          display:inline;
+        }
+
+      }
+      .views-field:nth-of-type(1){
+
+      }
+      .views-field-view-node{
+        position:absolute;
+        bottom: 10px;
+        right: 10px;
+        text-align:right;
+      }
+      .views-field-field-imagen{
+
+        .field-content {
+          width: 90%;
+          margin: 0 auto;
+           img{
+             width:100%;
+             height: auto;
+           }
+        }
+      }
+    }
+
+  }
+
+}

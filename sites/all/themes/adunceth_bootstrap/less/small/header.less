@@ -1,0 +1,166 @@
+// Insert your styling here.
+
+header#header-container #background{
+  background: transparent url("../images/bg-header.png") no-repeat scroll center top;
+  background-size: cover;
+  margin: 0 0;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  
+  .branding {
+    margin: 2vw;
+  }
+}
+
+div#header.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header .logo {
+  //padding: 2em;
+  img{
+    //290 / 73
+    width: 200px;
+    height: 50px;
+  }
+}
+
+.l-top-navigation {
+
+  padding: 1em 0;
+
+  > div {
+    padding: 0;
+  }
+
+  h2.block-title {
+    display: none;
+  }
+
+  ul > li {
+    display: inline-block;
+    a  {
+      font-size: 3vw;
+      &:hover, &:focus{
+        background: none;
+      }
+      div.title {
+        display: none;
+      }
+    }
+    div.fa {
+      color: #BBB;
+      &:hover {
+        color: white;
+      }
+    }
+
+  }
+}
+
+
+#slogan {
+  display: none;
+  clear:right;
+  float: right;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.remove-padding {
+  padding: 0;
+}
+#header-container {
+  background-color: #061D47;
+}
+
+@quick_menu_items_size: 14px;
+
+div#main-menu .block-menu {
+
+  ul {
+    &.menu {
+      display: flex;
+      justify-content: center;
+    }
+    padding: 0;
+  }
+
+  a {
+    display: inherit;
+    color: #BBB;
+    text-decoration: none;
+    font-size: @quick_menu_items_size;
+    &:hover {
+        color:white;
+    }
+  }
+
+  li {
+    list-style: none;
+    // text-align: center;
+  }
+
+  > ul.menu {
+
+    margin: 0;
+    > li {
+      min-height: 10vw;
+      padding: 0 1.5vw;
+      float:left;
+      width: (100% / @menu_size);
+      .menu-color-loop (0;5;10;);
+
+      /* Titulo del Bloque de Menú  */
+      > a {
+        padding: 1vw 0;
+        // font-family: BeauBold;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+
+        &:hover {
+          color:#4590E9;
+          background: none;
+        }
+        list-style-position: inside;
+        list-style-type: square;
+      }
+
+       > ul > li {
+        font-family: BeauNormal;
+      }
+
+
+    }
+
+  }
+
+}
+
+.header-highlights {
+
+  .panel-pane {
+    position: relative;
+  }
+
+  h2.pane-title {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0.5vw;
+    color: #FFF;
+    text-transform: capitalize;
+  }
+
+  .pane-content img {
+    width: 100%;
+    height: 10vw;
+  }
+
+}

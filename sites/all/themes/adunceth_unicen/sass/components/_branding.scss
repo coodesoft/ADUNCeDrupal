@@ -1,0 +1,60 @@
+.l-header-wrapper {
+//  padding-top: 10px;
+  width: 80%;
+  min-height: 120px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.l-header {
+  width: 100%;
+  // padding-left: 10%;
+  // padding-right: 10%;
+  // min-height: 240px;
+  background: url("../images/bg-header.png") top no-repeat;
+}
+
+.l-highligthed {
+  background: none repeat scroll 0% 0% #061D47;
+
+  width: 100%;
+}
+
+.cc-main-slider {
+  text-align: center;
+
+  .views-slideshow-cycle-main-frame {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+}
+
+.l-branding {
+  float: left;
+  margin-right: 2em;
+}
+
+.site-slogan {
+    font: $slogan_font_properties;
+    color: $slogan_color;
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/**
+*
+* Logo Styling
+*
+**/
+.site-logo img {
+  margin-top: 20px;
+  width: 290px;
+  height: 73px;
+}

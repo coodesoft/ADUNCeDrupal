@@ -1,0 +1,12 @@
+.menu-color-loop(@from;@to;@degrade_size) when (@from <= @to) {
+  &:nth-of-type(@{from}) {
+    //Menu Color Loop
+    background: rgba(42,115,211,1/(@degrade_size+1)*@from);
+  }
+  .menu-color-loop(@from + 1;@to;@degrade_size;);
+}
+
+.center() {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,29 @@
+/***********************************************************
+Este archivo de estilos define los estilos para las regiones
+de tipo barra lateral de las páginas creadas con Panels.
+
+Se utilizará la clase "panel-sidebar" para identificar a
+estas regiones.
+
+Author: Mauro J Giamberardino en Coodesoft
+Fecha creación: 08/07/2015
+Utilizado en el tema: Omega-based ADUNCe Theme
+***********************************************************/
+$sidebar_radius:5px;
+
+
+.panel-sidebar {
+
+  ** h2.pane-title {
+    margin: 0px;
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  text-align: justify;
+  padding: 1em;
+
+  background-color: $sidebar_background;
+  border-radius: $sidebar_radius;
+
+}
