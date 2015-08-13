@@ -1,0 +1,3 @@
+<Directory "/var/www/html/adunce/">
+  AllowOverride All
+</Directory>
