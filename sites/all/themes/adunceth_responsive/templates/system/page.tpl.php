@@ -138,7 +138,20 @@
   <section class="content">
     <?php print render($page['content']); ?>
   </section>
-  <footer class="footer container">
-    <?php print render($page['footer']); ?>
+  <footer>
+    <div id="footer-container">
+      <?php print render($page['footer']); ?>
+    </div>
+
+    <div id="footer-line-top"></div>
+    <div class="clearfix"></div>
+    <div class="footer-bottom">
+      <div id="footer-inside">
+        <?php if(!empty($page['banner'])): ?>
+          <?php print render($page['banner']); ?>
+        <?php endif; ?>
+      </div>
+    </div>
+
   </footer>
 </div>

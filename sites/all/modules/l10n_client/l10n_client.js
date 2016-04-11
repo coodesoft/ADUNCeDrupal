@@ -45,14 +45,14 @@
       if (!!state == true) {
         $clientWrapper.show();
         $l10nClient.removeClass('l10n-client-minimized').addClass('l10n-client-maximized').find('.labels .toggle').text('X');
-        if (!$.browser.msie) {
+        if (!(( navigator.appName == 'Microsoft Internet Explorer') ? true : false) ) {
           $('body').addClass('toggle-expanded');
         }
         $.cookie('Drupal_l10n_client', '1', {expires: 7, path: '/'});
       } else {
         $clientWrapper.hide();
         $l10nClient.removeClass('l10n-client-maximized').addClass('l10n-client-minimized').find('.labels .toggle').text(Drupal.t('Translate Text'));
-        if (!$.browser.msie) {
+        if (!(( navigator.appName == 'Microsoft Internet Explorer') ? true : false )) {
           $('body').removeClass('toggle-expanded');
         }
         $.cookie('Drupal_l10n_client', '0', {expires: 7, path: '/'});

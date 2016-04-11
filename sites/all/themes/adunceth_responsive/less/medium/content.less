@@ -187,5 +187,111 @@ ul.pagination {
 .panel-sidebar {
 
   background-color: rgba(255,255,255,0.5);
+  .pane-content{
+    display: block;
+    .view-content{
+      display: block;
+      .views-row{
+        position: relative;
+        padding-bottom: 18px;
+        .views-field-title{
+          background-color: rgba(69, 144, 233, 0.5);
+          display: block;
+          padding: 8px 12px ;
+          border-bottom: 4px solid #0D53B6;
+          strong{
+            color: white;
+          }
+        }
+        .views-field-field-archi-util{
+          display: inline;
+          .field-content{
+            display: inline;
+          }
+        }
 
+      }
+    }
+  }
+
+} // Fin panel-sidebar - PUEDE VOLAR
+
+/*Estilos de la seccion Institucional*/
+.panel-historia{
+  .pane-title{
+    display: none;
+  }
+  .pane-content{
+    margin-top: 18px;
+    p:nth-child(1){
+      font-size: 16px;
+      text-align: center;
+      color: #0D53B6;
+    }
+    p{
+      font-size: 12px;
+      text-align: justify;
+    }
+  }
+} // Fin panel-historia
+
+.panel-autoridades{
+  .pane-title{
+    // display: none;
+    text-align: center;
+    color: #0D53B6;
+    font-size: 24px;
+  }
+  .pane-content{
+    margin-top: 3vh;
+    span{
+      strong{
+        font-size: 14px;
+        text-align: justify;
+        text-decoration:inherit;
+        color: #0D53B6;
+      }
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+} // Fin panel-autoridades
+
+.panel-contacto{
+  .pane-title{
+    display: none;
+  }
+  .pane-content{
+    margin-top: 18px;
+    color: #0D53B6;
+
+    .form-type-checkbox{
+      #edit-copy{
+        margin-left: 1px;
+      }
+    }
+  }
+} // Fin panel.contacto
+
+/*Fin Estilos de la seccion Institucional*/
+
+.panel-pdf{
+  .content-content {
+  }
+  .pane-content{
+    iframe { box-shadow: 0px 0px 5px #393939;}
+  }
+}
+
+.sidebar{
+  .pane-content{
+    ul.menu.nav{
+      text-align: left;
+      li{
+
+      }
+    }
+
+  }
 }
