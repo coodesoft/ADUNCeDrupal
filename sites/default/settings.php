@@ -213,11 +213,11 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'ts000152_adrup',
+      'database' => 'aduncedrupal',
       'username' => 'ts000152_adrup',
       'password' => 'Adun194817',
       'host' => 'localhost',
