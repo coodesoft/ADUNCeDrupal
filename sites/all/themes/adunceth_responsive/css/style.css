@@ -8137,6 +8137,10 @@ body #admin-menu .dropdown li {
 }
 
 @media screen and (min-width: 992px) {
+    div#l-branding {
+      margin: auto!important;
+      float: none;
+    }
     .navbar.container {
         max-width: 940px
     }
@@ -8244,6 +8248,10 @@ form#search-block-form {
 }
 
 @media screen and (min-width: 992px) {
+    div#l-branding {
+      margin: auto!important;
+      float: none;
+    }
     .navbar #block-search-form {
         float: right
     }
@@ -9144,7 +9152,7 @@ body {
         height: 50px
     }
     .l-top-navigation {
-        padding: 1em 0
+        padding: 0 0 0 1em
     }
     .l-top-navigation>div {
         padding: 0
@@ -9156,7 +9164,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 3vw
+        font-size: 0.8vw
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
@@ -9381,7 +9389,9 @@ body {
         margin: 0 0;
         width: 100%;
         border-radius: 0;
-        border: 0
+        border: 0;
+        height: 150px;
+        background-position: center 69%;
     }
     header#header-container #background .branding {
         margin: 2vw
@@ -9395,7 +9405,7 @@ body {
         height: 73px
     }
     .l-top-navigation {
-        padding: 1em 0
+        padding: 0 0 0 1em
     }
     .l-top-navigation>div {
         padding: 0
@@ -9407,7 +9417,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 2vw
+        font-size: 0.8vw
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
