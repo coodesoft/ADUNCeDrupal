@@ -81,15 +81,23 @@
   <header id="header-container" role="banner" class="l-header">
     <div id="background" class="container-fluid">
       <div id="header" class="container">
-        <?php if ($logo): ?>
+        <div class="row">
+          <div id="slogan" class="col-sm-6">
+            <?php if (!empty($site_slogan)): //Frase del sitio?>
+              <p class="lead pull-bottom"><?php print $site_slogan; ?></p>
+            <?php endif; ?>
+          </div>
+
+        <?php if ($logo): //logo del sitio ?>
           <div id="l-branding" class="branding col-xs-12 col-sm-4">
             <a class="logo" href="#" title="<?php print t('Home'); ?>">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
           </div>
         <?php endif;?>
-        <?php if (!empty($page['top_navigation'])): ?>
-          <div class="l-top-navigation navbar-header pull-right hidden-xs">
+
+        <?php if (!empty($page['top_navigation'])): //redes sociales?>
+          <div class="l-top-navigation navbar-header pull-right hidden-xs col-sm-2">
             <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -104,14 +112,12 @@
               </nav>
             </div>
           </div>
+
         <?php endif; ?>
-        <div id="slogan">
-          <?php if (!empty($site_slogan)): ?>
-            <p class="lead pull-bottom"><?php print $site_slogan; ?></p>
-          <?php endif; ?>
         </div>
       </div>
     </div>
+
 
     <div id="main-menu-container"class="container">
       <!-- <button id="main-menu" type="button" class="visible-xs-block btn btn-default btn-lg"> -->

@@ -4835,7 +4835,9 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     position: relative;
     display: block
 }
-
+#top-menu li a {
+    padding: 10px 7px;
+}
 .nav>li>a {
     position: relative;
     display: block;
@@ -8138,8 +8140,7 @@ body #admin-menu .dropdown li {
 
 @media screen and (min-width: 992px) {
     div#l-branding {
-      margin: auto!important;
-      float: none;
+
     }
     .navbar.container {
         max-width: 940px
@@ -8249,8 +8250,7 @@ form#search-block-form {
 
 @media screen and (min-width: 992px) {
     div#l-branding {
-      margin: auto!important;
-      float: none;
+
     }
     .navbar #block-search-form {
         float: right
@@ -8959,7 +8959,7 @@ body {
         border: 0
     }
     header#header-container #background .branding {
-        margin: 2vw
+
     }
     div#header.container {
         margin: 0 auto;
@@ -8972,7 +8972,7 @@ body {
     }
     #slogan {
         clear: right;
-        float: right;
+        float: left;
         color: white;
         text-align: center
     }
@@ -9141,7 +9141,7 @@ body {
         border: 0
     }
     header#header-container #background .branding {
-        margin: 2vw
+
     }
     div#header.container {
         margin: 0 auto;
@@ -9152,7 +9152,7 @@ body {
         height: 50px
     }
     .l-top-navigation {
-        padding: 0 0 0 1em
+        padding: 0 0 0 0
     }
     .l-top-navigation>div {
         padding: 0
@@ -9179,14 +9179,15 @@ body {
     .l-top-navigation ul>li div.fa:hover {
         color: white
     }
+    #slogan .lead{
+      max-width: 50%;
+    }
     #slogan {
         display: none;
         clear: right;
-        float: right;
+        float: left;
         color: white;
-        position: absolute;
-        bottom: 0;
-        right: 15px
+        top: 80px
     }
     .remove-padding {
         padding: 0
@@ -9390,22 +9391,25 @@ body {
         width: 100%;
         border-radius: 0;
         border: 0;
-        height: 150px;
+        height: 130px;
         background-position: center 69%;
     }
     header#header-container #background .branding {
-        margin: 2vw
+      top: 20px;
     }
     div#header.container {
         margin: 0 auto;
         position: relative
     }
+    #header .logo{
+      float: none;
+    }
     #header .logo img {
-        width: 290px;
-        height: 73px
+        width: 210px;
+        height: 100px
     }
     .l-top-navigation {
-        padding: 0 0 0 1em
+        padding: 0 0 0 0
     }
     .l-top-navigation>div {
         padding: 0
@@ -9432,13 +9436,15 @@ body {
     .l-top-navigation ul>li div.fa:hover {
         color: white
     }
+    #slogan .lead{
+      max-width: 35%;
+      font-size: 13px;
+    }
     #slogan {
         clear: right;
-        float: right;
+        float: left;
         color: white;
-        position: absolute;
-        bottom: 0;
-        right: 15px
+        top: 95px
     }
     .remove-padding {
         padding: 0
