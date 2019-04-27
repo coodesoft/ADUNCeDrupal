@@ -9164,7 +9164,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 0.8vw
+        font-size: 1.2vw
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
@@ -9405,7 +9405,7 @@ body {
         position: relative
     }
     #header .logo{
-      padding-left: 50px;
+
     }
     #header .logo img {
         width: 210px;
@@ -9424,7 +9424,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 0.8vw
+        font-size: 1.2vw
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
@@ -9434,7 +9434,7 @@ body {
         display: none
     }
     #redes-sociales{
-      top: 70px;
+      top: 55px;
     }
     .l-top-navigation ul>li div.fa {
         color: #BBB
