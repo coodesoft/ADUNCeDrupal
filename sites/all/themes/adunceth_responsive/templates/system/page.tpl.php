@@ -90,7 +90,7 @@
 
         <?php if ($logo): //logo del sitio ?>
           <div id="l-branding" class="branding col-xs-12 col-sm-4">
-            <a class="logo" href="#" title="<?php print t('Home'); ?>">
+            <a id="link" class="logo" href="#" title="<?php print t('Home'); ?>">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
           </div>
@@ -113,6 +113,30 @@
             </div>
           </div>
 
+        <?php endif; ?>
+        <?php if (!empty($page['top_navigation'])): //redes sociales?>
+        <div id="redes-sociales" class="l-top-navigation navbar-header pull-right hidden-xs col-sm-2">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> -->
+            <div class="navbar-collapse collapse"><!-- -collapse collapse -->
+             <nav role="navigation">
+              <div class="region region-top-navigation">
+               <section  class="block block-system block-menu clearfix">
+            <h2 class="block-title">Menú principal</h2>
+
+              <ul class="menu nav"><li class="first leaf"><a href="https://www.facebook.com/www.adunce.com.ar/" title=""><div class="title">Facebook</div><div class="fa fa-facebook" aria-hidden="true"></div></a></li>
+                      <li class="leaf"><a href="https://www.instagram.com/adunceg/" title="Instagram"><div class="title">Instagram</div><div class="fa fa-instagram" aria-hidden="true"></div></a></li>
+                      <li class="last leaf"><a href="https://twsitter.com/adun_ce/"><div class="title">Twitter</div><div class="fa fa-twitter" aria-hidden="true"></div></a></li>
+              </ul>
+               </section> <!-- /.block -->
+              </div>
+            </nav>
+          </div>
+          </div>
         <?php endif; ?>
         </div>
       </div>
