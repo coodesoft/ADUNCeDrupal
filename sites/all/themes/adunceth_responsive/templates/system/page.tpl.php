@@ -130,7 +130,7 @@
 
               <ul class="menu nav"><li class="first leaf"><a href="https://www.facebook.com/www.adunce.com.ar/" title=""><div class="title">Facebook</div><div class="fa fa-facebook" aria-hidden="true"></div></a></li>
                       <li class="leaf"><a href="https://www.instagram.com/adunceg/" title="Instagram"><div class="title">Instagram</div><div class="fa fa-instagram" aria-hidden="true"></div></a></li>
-                      <li class="last leaf"><a href="https://twsitter.com/adun_ce/"><div class="title">Twitter</div><div class="fa fa-twitter" aria-hidden="true"></div></a></li>
+                      <li class="last leaf"><a href="https://twitter.com/adun_ce/"><div class="title">Twitter</div><div class="fa fa-twitter" aria-hidden="true"></div></a></li>
               </ul>
                </section> <!-- /.block -->
               </div>
