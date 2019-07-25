@@ -90,30 +90,12 @@
 
         <?php if ($logo): //logo del sitio ?>
           <div id="l-branding" class="branding col-xs-12 col-sm-4">
-            <a id="link" class="logo" href="#" title="<?php print t('Home'); ?>">
+            <a id="link" class="logo" href="http://adunce.unicen.edu.ar/web/" title="<?php print t('Home'); ?>">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
           </div>
         <?php endif;?>
 
-        <?php if (!empty($page['top_navigation'])): //redes sociales?>
-          <div class="l-top-navigation navbar-header pull-right hidden-xs col-sm-2">
-            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-menu">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button> -->
-            <div id="top-menu" class="navbar-collapse collapse"><!-- -collapse collapse -->
-              <nav role="navigation">
-                <?php if (!empty($page['top_navigation'])): ?>
-                  <?php print render($page['top_navigation']); ?>
-                <?php endif; ?>
-              </nav>
-            </div>
-          </div>
-
-        <?php endif; ?>
         </div>
       </div>
     </div>
