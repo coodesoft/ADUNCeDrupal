@@ -82,7 +82,7 @@
     <div id="background" class="container-fluid">
       <div id="header" class="container">
         <div class="row">
-          <div id="slogan" class="col-sm-6">
+          <div id="slogan" class="col-xs-12 col-md-6">
             <?php if (!empty($site_slogan)): //Frase del sitio?>
               <p class="lead pull-bottom"><?php print $site_slogan; ?></p>
             <?php endif; ?>
