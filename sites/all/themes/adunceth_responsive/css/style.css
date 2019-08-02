@@ -8940,7 +8940,6 @@ body {
 
 .lista-estilizada1 .pane-title {
     padding: 6px;
-    background: #337ab7;
     color: whitesmoke;
     margin-top: 0
 }
@@ -8948,6 +8947,33 @@ body {
 .lista-estilizada1 .pane-content .view-empty p img {
     margin: auto
 }
+
+.adunce-bloque{
+    background: #265a84ff;    
+    text-align: center;
+}
+
+#linkToCGDA{
+    padding: 10px;
+}
+
+#linkToCGDA a{
+    color: whitesmoke !important;
+}
+
+#incaaBloque .pane-title{
+    color: whitesmoke;    
+    padding: 10px;
+    margin: 0;
+}
+
+#twitterBloque{
+    max-height: 500px;
+    max-width: 340px;
+    overflow: auto;
+}
+
+
 
 @media (max-width:767px) {
     header#header-container #background {
@@ -9529,7 +9555,7 @@ body {
     .header-highlights h2.pane-title {
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: 0;pal. I need some guidance to change the font and style of the articles. Please can anybody help me
         background-color: rgba(0, 0, 0, 0.75);
         padding: .5vw;
         color: #FFF;
