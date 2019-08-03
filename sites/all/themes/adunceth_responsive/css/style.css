@@ -8955,6 +8955,7 @@ body {
 
 #linkToCGDA{
     padding: 10px;
+    max-width: 340px;
 }
 
 #linkToCGDA a{
@@ -8965,6 +8966,12 @@ body {
     color: whitesmoke;    
     padding: 10px;
     margin: 0;
+    background: #265a84ff;    
+    text-align: center;
+
+}
+#incaaBloque {
+    max-width: 340px
 }
 
 #twitterBloque{
