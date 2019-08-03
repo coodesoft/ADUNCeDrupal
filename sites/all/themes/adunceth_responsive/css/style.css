@@ -9162,6 +9162,11 @@ body {
 }
 
 @media (min-width:768px) and (max-width:991px) {
+    
+    #block-system-main-menu{
+    	margin-top: 60px
+    }
+
     header#header-container #background {
         background: transparent url("../images/bg-header.png") no-repeat scroll center top;
         background-size: cover;
@@ -9194,7 +9199,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 1.2vw
+        font-size: 15px;
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
@@ -9417,6 +9422,12 @@ body {
 }
 
 @media (min-width:992px) {
+    
+    #block-system-main-menu{
+    	margin-top: 90px
+    }
+
+
     header#header-container #background {
         background: transparent url("../images/bg-header.png") no-repeat scroll center top;
         background-size: cover;
@@ -9467,6 +9478,7 @@ body {
       top: 55px;
     }
     .l-top-navigation ul>li div.fa {
+        font-size: 18px;
         color: #BBB
     }
     .l-top-navigation ul>li div.fa:hover {

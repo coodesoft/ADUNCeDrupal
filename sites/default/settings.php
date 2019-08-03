@@ -217,9 +217,9 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'aduncedrupal',
-      'username' => 'ts000152_adrup',
-      'password' => 'ts000152_adrup',
+      'database' => 'aduncetest',
+      'username' => 'admin',
+      'password' => 'admin',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
