@@ -21,6 +21,7 @@ regions[navigation]     = 'Main Navigation'
 regions[content]        = 'Content'
 regions[footer]         = 'Footer'
 regions[banner]         = 'Banner'
+regions[institucional]  = 'Institucional' 
 
 
 ;;;;;;;;;;;;;;;;;;;;;

@@ -79,6 +79,7 @@
 ?>
 <div id="all">
   <header id="header-container" role="banner" class="l-header">
+    <div id="institucional"><?php print render($page['institucional']); ?></div>
     <div id="background" class="container-fluid">
       <div id="header" class="container">
         <div class="row">
