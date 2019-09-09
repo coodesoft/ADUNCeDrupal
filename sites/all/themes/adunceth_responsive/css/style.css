@@ -914,12 +914,75 @@ pre code {
     .container {
         width: 970px
     }
+    #header-container{
+    	background-color: #265a84 !important;
+    }
+
+    #institucional div #block-menu-block-1 div ul.menu.nav {
+    	background-color: #1a1a1a;
+
+    }
+
+    #institucional div #block-menu-block-1 div ul.menu.nav > li {
+    	display: inline-block;
+    	color: #ececec !important;
+    	text-transform: uppercase;
+    	text-align: center;
+    	margin-left: 15px;
+    }
+
+    #institucional div #block-menu-block-1 .block-title {
+    	display: none;
+    }
+
+    #main-menu-container ul.menu.nav {
+    	height: 30px;
+    }
+
+    #main-menu-container {
+    	height: 30px;
+    }
+
+    #main-menu-container ul.menu.nav > li {
+    	display: inline-block;
+  		color: #ececec;
+  		text-align: center;
+  		padding-left: 15px;
+  		padding-right: 15px;
+  		height: 100%;
+  		z-index: 1;
+  		border: 0.5px solid #ececec;
+     	height: 100%;
+     	width: 15%;
+     	position: static;
+    
+  	}
+
+
+    #main-menu-container ul.submenu {
+  		display: none;
+  		position: absolute;
+  		background-color:#1e3a6a ;
+  		width: auto;
+  	}
+    
+
+	#main-menu-container ul.menu.nav > li:hover ul.submenu{
+    	display:block;
+    }
+
+	#main-menu-container ul.menu.nav > li:hover{
+		background-color: #1e3a6a;
+	}
+
+
 }
 
 @media (min-width:1200px) {
     .container {
         width: 1170px
     }
+
 }
 
 .container-fluid {
@@ -9170,9 +9233,6 @@ body {
 
 @media (min-width:768px) and (max-width:991px) {
     
-    #block-system-main-menu{
-    	margin-top: 60px
-    }
 
     header#header-container #background {
         background: transparent url("../images/bg-header.png") no-repeat scroll center top;
@@ -9430,9 +9490,6 @@ body {
 
 @media (min-width:992px) {
     
-    #block-system-main-menu{
-    	margin-top: 90px
-    }
 
 
     header#header-container #background {
