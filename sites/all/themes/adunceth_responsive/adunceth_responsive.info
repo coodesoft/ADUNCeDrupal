@@ -29,6 +29,7 @@ regions[institucional]  = 'Institucional'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/adunce.css
 stylesheets[all][] = lib/mmenu/css/jquery.mmenu.css
 
 ; For information on choosing the desired method, please read the Drupal
