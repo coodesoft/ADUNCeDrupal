@@ -947,33 +947,60 @@ pre code {
     	display: inline-block;
   		color: #ececec;
   		text-align: center;
+  		text-transform: uppercase;
   		padding-left: 15px;
   		padding-right: 15px;
   		height: 100%;
   		z-index: 1;
-  		border: 0.5px solid #ececec;
+  		border-right: 0.5px solid #ececec;
      	height: 100%;
-     	width: 15%;
-     	position: static;
-    
+     	width: 19%;
+     	vertical-align: middle;
+     	padding-top: 5px;
   	}
 
+  	#main-menu-container ul.menu.nav > li > a {
+  		height: 25px;
+  		margin-top: -9px;
+		color: #ececec;
+
+  	}
 
     #main-menu-container ul.submenu {
   		display: none;
   		position: absolute;
   		background-color:#1e3a6a ;
-  		width: auto;
-  	}
+		width: 100%;
+		margin-left: -14px;
+		text-align: left;
+	}
+
+	#main-menu-container ul.submenu > li > a {
+		color: #ececec;
+	}
     
+    #main-menu-container ul.submenu li {
+		margin-bottom: 10px; 
+	}
 
 	#main-menu-container ul.menu.nav > li:hover ul.submenu{
     	display:block;
-    }
+    	margin-bottom: 15px;
+    	padding-bottom:5px;
+    	text-transform: none;
+	}
+
 
 	#main-menu-container ul.menu.nav > li:hover{
 		background-color: #1e3a6a;
 	}
+
+	#main-menu-container ul.menu.nav > li > a:hover {
+		background-color: transparent;
+	}
+
+
+
 
 
 }
