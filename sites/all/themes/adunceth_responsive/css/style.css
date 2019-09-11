@@ -914,13 +914,18 @@ pre code {
     .container {
         width: 970px
     }
+
+    #block-system-main-menu ul.menu.nav {
+    	margin-top: 87px;
+    }
+
     #header-container{
     	background-color: #265a84 !important;
     }
 
     #institucional div #block-menu-block-1 div ul.menu.nav {
     	background-color: #1a1a1a;
-
+    	height: 25px;
     }
 
     #institucional div #block-menu-block-1 div ul.menu.nav > li {
@@ -928,7 +933,24 @@ pre code {
     	color: #ececec !important;
     	text-transform: uppercase;
     	text-align: center;
-    	margin-left: 15px;
+    	margin-left: 15px; 
+    	height: 100%;
+    	vertical-align: middle;
+    	margin-top: -5px;
+
+    }
+
+    #institucional div #block-menu-block-1 div ul.menu.nav > li:first-child {
+    	margin-left: 90px;
+    }
+
+    #institucional div #block-menu-block-1 div ul.menu.nav > li > a {
+    	color: #ececec !important;
+    }
+    #institucional div #block-menu-block-1 div ul.menu.nav > li > a:hover {
+    	background-color: #121010;
+    	height: 100%;
+    	margin-top: 5px;
     }
 
     #institucional div #block-menu-block-1 .block-title {
@@ -952,18 +974,26 @@ pre code {
   		padding-right: 15px;
   		height: 100%;
   		z-index: 1;
-  		border-right: 0.5px solid #ececec;
+  		border-right: 1px solid #ececec;
      	height: 100%;
      	width: 19%;
      	vertical-align: middle;
      	padding-top: 5px;
+     	text-overflow: clip;
+  	}
+
+  	#main-menu-container ul.menu.nav > li:first-child{
+  		border-left: 1px solid #ececec;
+  	}
+
+  	#main-menu-container ul.menu.nav {
+  		width: 103%;
   	}
 
   	#main-menu-container ul.menu.nav > li > a {
   		height: 25px;
   		margin-top: -9px;
 		color: #ececec;
-
   	}
 
     #main-menu-container ul.submenu {
@@ -985,9 +1015,14 @@ pre code {
 
 	#main-menu-container ul.menu.nav > li:hover ul.submenu{
     	display:block;
-    	margin-bottom: 15px;
-    	padding-bottom:5px;
+    	margin-top: 8px;
+    	margin-left: -15px;
     	text-transform: none;
+	}
+
+	#main-menu-container ul.menu.nav > li:after {
+		content: "▼";
+		margin-left: 5px;
 	}
 
 
