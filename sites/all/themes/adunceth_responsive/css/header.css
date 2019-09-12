@@ -1,0 +1,207 @@
+#institucional{
+    	background-color: #1a1a1a;
+    	height: 35px;
+    }
+
+#institucional div #block-menu-block-1 div ul.menu.nav > li {
+	display: inline-block;
+	color: #ececec !important;
+	text-transform: uppercase;
+	text-align: center;
+	height: 100%;
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+
+#institucional div #block-menu-block-1 {
+    margin-left: 10px;
+}
+
+#institucional div #block-menu-block-1 div ul.menu.nav > li > a {
+	color: #ececec !important;
+}
+    
+#institucional div #block-menu-block-1 div ul.menu.nav > li > a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#institucional div #block-menu-block-1 .block-title {
+	display: none;
+}
+
+#main-menu-wrapper{
+ height: 0;   
+}
+
+@media (max-width: 767px){
+    #institucional div #block-menu-block-1 div ul.menu.nav > li > a{
+        padding: 10px 10px;
+    }
+    
+}
+
+@media (min-width:768px) {
+
+    #institucional div #block-menu-block-1 {
+        margin-left: 0;
+    }
+    
+    #main-menu-container,
+    #main-menu-container ul.menu.nav {
+    	height: 40px;
+        padding-left: 1.8%;
+    }
+
+    #main-menu-container ul.menu.nav > li {
+    	display: inline-block;    
+        color: #ececec;
+  		text-align: center;
+  		height: 100%;
+  		z-index: 1;
+     	height: 100%;
+     	width: 19.5%;
+     	text-overflow: clip;
+        font-size: 10px;
+  	}
+    
+    #main-menu-container ul.menu.nav > li > span{
+        display: inline-block;
+    	text-transform: uppercase;
+        width: 100%;
+        border-left: 1px solid #ececec;
+        margin-top: 9%;
+  	}
+
+    #main-menu-container ul.menu.nav > li:last-child > span,
+    #main-menu-container ul.menu.nav > li:last-child > a{
+        border-right: 1px solid #ececec;
+    }
+    
+    #main-menu-container ul.menu.nav > li:last-child:hover > span,
+    #main-menu-container ul.menu.nav > li:last-child:hover > a{
+        border-right: 1px solid transparent;
+    }
+    
+    #main-menu-container ul.menu.nav > li > span:before{
+        display: inline-block;
+    	text-transform: uppercase;
+        content: "";
+        vertical-align: middle;
+        height: 100%;
+  	}
+    
+    #main-menu-container ul.menu.nav > li > span > div,
+    #main-menu-container ul.menu.nav > li > a > div {
+        margin-left: 10px;
+    }
+
+  	#main-menu-container ul.menu.nav > li > a {
+        display: block;
+		color: #ececec;
+        text-transform: uppercase;
+        border-left: 1px solid #ececec;        
+  	}
+  
+    #main-menu-container ul.menu.nav > li > a {
+        padding: 0;
+        margin-top: 12.5px;
+    }
+    
+
+    #main-menu-container ul.submenu {
+  		display: none;
+  		position: absolute;
+  		background-color:#1e3a6a ;
+		width: 100%;
+		text-align: left;
+        padding-left: 0;
+        -webkit-box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.75);
+        box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.75);        
+	}
+
+	#main-menu-container ul.submenu > li > a,
+    #main-menu-container ul.submenu > li > span{
+		color: #ececec;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10%;
+        display: block;
+	}
+
+    #main-menu-container ul.menu.nav > li:hover > span,
+    #main-menu-container ul.menu.nav > li:hover + li > span,
+    #main-menu-container ul.menu.nav > li:hover > a,
+    #main-menu-container ul.menu.nav > li:hover + li > a{
+        border-left: 1px solid transparent;
+    }
+
+	#main-menu-container ul.menu.nav > li:hover{
+		background-color: #1e3a6a;
+        z-index: 100;
+	}
+
+	#main-menu-container ul.menu.nav > li:hover ul.submenu{
+    	display:block;
+    	margin-top: 9px;
+    	text-transform: none;
+        border-top: 1px solid #3666;
+	}    
+
+    #main-menu-container ul.submenu li:hover{
+        background: #0e1e39;
+        cursor: pointer;
+    }
+    
+    #main-menu-container ul.submenu li a:hover{
+        text-decoration: none;
+    }
+    
+    
+	#main-menu-container ul.menu.nav > li > a:hover {
+		background-color: transparent;
+	}    
+}
+   
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+
+    #institucional div #block-menu-block-1 div ul.menu.nav > li > a {
+    margin-left: 4px;
+    }
+    
+    #block-system-main-menu ul.menu.nav {
+    	margin-top: 79px;
+    }
+
+     
+    #main-menu-container ul.menu.nav > li{
+        font-size: 14px;
+    }
+
+    #main-menu-container ul.menu.nav > li > span{
+        margin-top: 6%;
+  	}
+    
+    #main-menu-container ul.menu.nav >li > a{
+        margin-top: 10.5px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+    
+    #main-menu-container ul.menu.nav > li > span {
+        margin-top: 5%;
+    }
+
+}
+

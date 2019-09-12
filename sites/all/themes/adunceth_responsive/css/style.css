@@ -904,148 +904,30 @@ pre code {
     padding-right: 15px
 }
 
+#main-menu-wrapper{
+    background-color: #265a84 !important;  
+    border-top: 2px solid #000;
+}
+
 @media (min-width:768px) {
     .container {
         width: 750px
-    }
+    }   
 }
+   
 
 @media (min-width:992px) {
     .container {
         width: 970px
     }
-
-    #block-system-main-menu ul.menu.nav {
-    	margin-top: 87px;
-    }
-
-    #header-container{
-    	background-color: #265a84 !important;
-    }
-
-    #institucional div #block-menu-block-1 div ul.menu.nav {
-    	background-color: #1a1a1a;
-    	height: 25px;
-    }
-
-    #institucional div #block-menu-block-1 div ul.menu.nav > li {
-    	display: inline-block;
-    	color: #ececec !important;
-    	text-transform: uppercase;
-    	text-align: center;
-    	margin-left: 15px; 
-    	height: 100%;
-    	vertical-align: middle;
-    	margin-top: -5px;
-
-    }
-
-    #institucional div #block-menu-block-1 div ul.menu.nav > li:first-child {
-    	margin-left: 90px;
-    }
-
-    #institucional div #block-menu-block-1 div ul.menu.nav > li > a {
-    	color: #ececec !important;
-    }
-    #institucional div #block-menu-block-1 div ul.menu.nav > li > a:hover {
-    	background-color: #121010;
-    	height: 100%;
-    	margin-top: 5px;
-    }
-
-    #institucional div #block-menu-block-1 .block-title {
-    	display: none;
-    }
-
-    #main-menu-container ul.menu.nav {
-    	height: 30px;
-    }
-
-    #main-menu-container {
-    	height: 30px;
-    }
-
-    #main-menu-container ul.menu.nav > li {
-    	display: inline-block;
-  		color: #ececec;
-  		text-align: center;
-  		text-transform: uppercase;
-  		padding-left: 15px;
-  		padding-right: 15px;
-  		height: 100%;
-  		z-index: 1;
-  		border-right: 1px solid #ececec;
-     	height: 100%;
-     	width: 19%;
-     	vertical-align: middle;
-     	padding-top: 5px;
-     	text-overflow: clip;
-  	}
-
-  	#main-menu-container ul.menu.nav > li:first-child{
-  		border-left: 1px solid #ececec;
-  	}
-
-  	#main-menu-container ul.menu.nav {
-  		width: 103%;
-  	}
-
-  	#main-menu-container ul.menu.nav > li > a {
-  		height: 25px;
-  		margin-top: -9px;
-		color: #ececec;
-  	}
-
-    #main-menu-container ul.submenu {
-  		display: none;
-  		position: absolute;
-  		background-color:#1e3a6a ;
-		width: 100%;
-		margin-left: -14px;
-		text-align: left;
-	}
-
-	#main-menu-container ul.submenu > li > a {
-		color: #ececec;
-	}
-    
-    #main-menu-container ul.submenu li {
-		margin-bottom: 10px; 
-	}
-
-	#main-menu-container ul.menu.nav > li:hover ul.submenu{
-    	display:block;
-    	margin-top: 8px;
-    	margin-left: -15px;
-    	text-transform: none;
-	}
-
-	#main-menu-container ul.menu.nav > li:after {
-		content: "▼";
-		margin-left: 5px;
-	}
-
-
-	#main-menu-container ul.menu.nav > li:hover{
-		background-color: #1e3a6a;
-	}
-
-	#main-menu-container ul.menu.nav > li > a:hover {
-		background-color: transparent;
-	}
-
-
-
-
-
 }
 
 @media (min-width:1200px) {
     .container {
         width: 1170px
     }
-
 }
+
 
 .container-fluid {
     margin-right: auto;
@@ -9618,7 +9500,8 @@ body {
         clear: right;
         float: left;
         color: white;
-        top: 70px
+        top: 50px;
+        padding-left: 41px;
     }
     .remove-padding {
         padding: 0
@@ -9711,7 +9594,6 @@ body {
         display: none
     }
     .region-content {
-        width: 80%;
         margin-left: auto;
         margin-right: auto
     }
@@ -9951,5 +9833,12 @@ body {
     footer .footer-bottom #footer-inside ul.menu.nav li:last-child a:hover {
         color: rgba(69, 144, 233, 0.5);
         background: none
+    }
+}
+
+
+@media (min-width: 1200px){
+    #slogan {
+        top: 70px;
     }
 }

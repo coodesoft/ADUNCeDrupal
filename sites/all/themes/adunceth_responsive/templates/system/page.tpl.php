@@ -79,7 +79,11 @@
 ?>
 <div id="all">
   <header id="header-container" role="banner" class="l-header">
-    <div id="institucional"><?php print render($page['institucional']); ?></div>
+    <div id="institucional">
+        <div class="container">
+            <?php print render($page['institucional']); ?>
+        </div>
+    </div>
     <div id="background" class="container-fluid">
       <div id="header" class="container">
         <div class="row">
@@ -120,7 +124,8 @@
     </div>
 
 
-    <div id="main-menu-container"class="container">
+    <div id="main-menu-wrapper">
+        <div id="main-menu-container" class="container">
       <!-- <button id="main-menu" type="button" class="visible-xs-block btn btn-default btn-lg"> -->
         <!-- <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></i> -->
         <a id="hamburger" class="mm-slideout" href="#menu"><span></span></a>
@@ -141,9 +146,12 @@
         </nav>
       </div>
     </div>
+    </div>
   </header>
   <section class="content">
-    <?php print render($page['content']); ?>
+    <div class="container">
+        <?php print render($page['content']); ?>
+    </div>
   </section>
   <footer>
     <div id="footer-container">
