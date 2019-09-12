@@ -75,6 +75,7 @@
 ?>
 <header id="header" role="banner" class="l-header <?php print $navbar_classes; ?>">
   <div class="container">
+      
       <div class="l-branding">
         <?php if ($logo || !empty($site_slogan)): ?>
         <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
