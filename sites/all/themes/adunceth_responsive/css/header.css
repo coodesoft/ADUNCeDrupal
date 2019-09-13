@@ -40,8 +40,9 @@
 }
 
 #top-menu li a {
-    padding: 5px 0;
+    padding: 3px 0;
     text-align: right;
+    font-size: 18px;
 }
 
 @media (max-width: 767px){

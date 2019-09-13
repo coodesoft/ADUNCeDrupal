@@ -8804,80 +8804,6 @@ body {
     text-align: center
 }
 
-.view-content .views-row {
-    border: 1px solid #ddd
-}
-
-.content-news .view-content .views-row>.views-field-field-etiquetas {
-    border-bottom: 1px solid #ccc;
-    background: transparent;
-    margin: 5px;
-    color: white
-}
-
-.content-news .view-content .views-row>.views-field-field-etiquetas a {
-    color: #333;
-    font-weight: normal
-}
-
-.content-news .view-content .views-row>.views-field-field-etiquetas::before {
-    display: inline
-}
-
-.content-news .view-content .views-row>.views-field-field-etiquetas>div {
-    font-weight: bold;
-    display: inline
-}
-
-.content-news .view-content .views-row .views-field-field-fecha {
-    position: absolute;
-    margin-top: 10px;
-    top: 91%;
-    left: 0;
-    width: 100%;
-    background-size: 100%;
-    text-align: right;
-    color: #337ab7;
-    padding-right: 3%
-}
-
-.content-news .view-content .views-row .views-field-field-fecha .field-content {
-    display: inline
-}
-
-.content-news .view-content .views-row .views-field-title {
-    background: url(/web/sites/all/themes/adunceth_responsive/images/adunce-header.png) no-repeat;
-    background-size: 100%;
-    padding: 34% 13% 11px 13%;
-    text-align: center
-}
-
-.content-news .view-content .views-row .views-field-title a {
-    color: #db2f2c
-}
-
-.content-news .view-content .views-row .views-field-view-node {
-    position: absolute;
-    top: 94%;
-    width: 100%;
-    text-align: center
-}
-
-.content-news .view-content .views-row .views-field-body {
-    margin: 0 5%;
-    padding-top: 5%;
-    border-top: 1px solid #cccccc
-}
-
-.content-news .view-content .views-row .views-field-field-imagen .field-content {
-    width: 90%;
-    margin: 0 auto
-}
-
-.content-news .view-content .views-row .views-field-field-imagen .field-content img {
-    width: 100%;
-    height: auto
-}
 
 .content-servicios .view-content .views-row .views-field-title {
     position: relative;
@@ -9327,7 +9253,7 @@ body {
         display: none
     }
     .region-content {
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto
     }
@@ -9390,7 +9316,6 @@ body {
         align-content: space-between;
         padding: 0 3.33%
     }
-    .content-news .view-content .views-row,
     .content-servicios .view-content .views-row,
     .content-images .view-content .views-row {
         position: relative;
@@ -9654,17 +9579,8 @@ body {
         align-content: space-between;
         padding: 0 3.33%
     }
-    .content-news .view-content .views-row,
-    .content-servicios .view-content .views-row,
-    .content-images .view-content .views-row {
-        position: relative;
-        background-color: rgba(255, 255, 255, 0.5);
-        width: 48%
-    }
-    .content-news .view-content .views-row {
-        min-height: 20vw;
-        margin-bottom: 2vw
-    }
+
+
     .content-servicios .view-content .views-row {
         margin-bottom: 2vw;
         min-height: 7vw
