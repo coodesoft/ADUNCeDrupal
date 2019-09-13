@@ -1,0 +1,84 @@
+.panels-flexible-variante_info_util .panels-flexible-region {
+  padding: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-region-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-region-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-region-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-column {
+  padding: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-column-inside {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-column-inside-first {
+  padding-left: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-column-inside-last {
+  padding-right: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-row {
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.panels-flexible-variante_info_util .panels-flexible-row-last {
+  padding-bottom: 0;
+}
+
+.panels-flexible-column-variante_info_util-main {
+  float: left;
+  width: 99.0000%;
+}
+
+.panels-flexible-variante_info_util-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-variante_info_util {
+  width: auto;
+}
+
+.panels-flexible-region-variante_info_util-t__tulo {
+  float: left;
+  width: 24.1406%;
+}
+
+.panels-flexible-region-variante_info_util-destacados {
+  float: left;
+  width: 74.8594%;
+}
+
+.panels-flexible-row-variante_info_util-1-inside {
+  padding-right: 0px;
+}
+
+.panels-flexible-region-variante_info_util-men___contextual {
+  float: left;
+  width: 23.9818%;
+}
+
+.panels-flexible-region-variante_info_util-center {
+  float: left;
+  width: 75.0182%;
+}
+
+.panels-flexible-row-variante_info_util-main-row-inside {
+  padding-right: 0px;
+}
+
