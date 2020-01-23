@@ -9239,7 +9239,7 @@ body {
         position: relative
     }
 
-	#main-menu-container ul.submenu > li > a, #main-menu-container ul.submenu > li > span{
+	#main-menu ul > li > a, #main-menu ul > li > span{
 	text-transform: uppercase;
 	}
     .header-highlights h2.pane-title {
@@ -9503,6 +9503,9 @@ body {
     div#main-menu .block-menu>ul.menu>li>ul>li {
         font-family: BeauNormal
     }
+	#main-menu ul > li > a, #main-menu ul > li > span{
+	text-transform: uppercase;
+	}
     .header-highlights .panel-pane {
         position: relative
     }
