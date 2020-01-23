@@ -4370,6 +4370,7 @@ tbody.collapse.in {
 .dropdown-menu>.disabled>a:hover,
 .dropdown-menu>.disabled>a:focus {
     text-decoration: none;
+	text-transform: uppercase;
     background-color: transparent;
     background-image: none;
     filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
@@ -9233,9 +9234,14 @@ body {
     div#main-menu .block-menu>ul.menu>li>ul>li {
         font-family: BeauNormal
     }
+	div#main-menu .block
     .header-highlights .panel-pane {
         position: relative
     }
+
+	#main-menu-container ul.submenu > li > a, #main-menu-container ul.submenu > li > span{
+	text-transform: uppercase;
+	}
     .header-highlights h2.pane-title {
         position: absolute;
         bottom: 0;
