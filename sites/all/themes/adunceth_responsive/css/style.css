@@ -9233,9 +9233,14 @@ body {
     div#main-menu .block-menu>ul.menu>li>ul>li {
         font-family: BeauNormal
     }
+	div#main-menu .block
     .header-highlights .panel-pane {
         position: relative
     }
+
+	#main-menu ul > li > a, #main-menu ul > li > span{
+	text-transform: uppercase;
+	}
     .header-highlights h2.pane-title {
         position: absolute;
         bottom: 0;
@@ -9497,6 +9502,9 @@ body {
     div#main-menu .block-menu>ul.menu>li>ul>li {
         font-family: BeauNormal
     }
+	#main-menu ul > li > a, #main-menu ul > li > span{
+	text-transform: uppercase;
+	}
     .header-highlights .panel-pane {
         position: relative
     }
