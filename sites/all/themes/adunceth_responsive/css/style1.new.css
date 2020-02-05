@@ -9764,39 +9764,3 @@ body {
         top: 70px;
     }
 }
-
-@media (max-width: 700px) {
-	.l-top-navigation {
-		display: block !important;
-	}
-
-	div#top-menu {
-		display: block;
-	}
-
-	#top-menu ul.menu.nav {
-		display: inline-flex;
-	}
-
-	#top-menu h2.block-title {
-		display:none;
-	}
-
-	#top-menu ul.menu.nav li a .title {
-		display: none;
-	}
-
-	#top-menu ul.menu.nav li a .fa {
-		margin-left: 30px;
-		color: #FFFFFF
-	}
-	
-	section#block-system-main-menu {
-		margin-top: -250px;
-	    margin-right: -18px;
-	}
-
-	div#slogan {
-		margin-top: 30px;
-	}
-}
