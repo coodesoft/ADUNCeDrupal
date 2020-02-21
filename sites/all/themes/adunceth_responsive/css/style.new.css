@@ -904,11 +904,17 @@ pre code {
     padding-right: 15px
 }
 
+#main-menu-wrapper{
+    background-color: #265a84 !important;  
+    border-top: 2px solid #000;
+}
+
 @media (min-width:768px) {
     .container {
         width: 750px
-    }
+    }   
 }
+   
 
 @media (min-width:992px) {
     .container {
@@ -921,6 +927,7 @@ pre code {
         width: 1170px
     }
 }
+
 
 .container-fluid {
     margin-right: auto;
@@ -8137,6 +8144,9 @@ body #admin-menu .dropdown li {
 }
 
 @media screen and (min-width: 992px) {
+    div#l-branding {
+
+    }
     .navbar.container {
         max-width: 940px
     }
@@ -8244,6 +8254,9 @@ form#search-block-form {
 }
 
 @media screen and (min-width: 992px) {
+    div#l-branding {
+
+    }
     .navbar #block-search-form {
         float: right
     }
@@ -8787,6 +8800,121 @@ body {
     width: auto
 }
 
+.sharethis-wrapper {
+    text-align: center
+}
+
+
+.content-servicios .view-content .views-row .views-field-title {
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.2em;
+    padding-bottom: 5px
+}
+
+.content-servicios .view-content .views-row .views-field-field-imagen-identificatoria {
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center
+}
+
+.content-servicios .view-content .views-row .views-field-field-imagen-identificatoria img {
+    width: 64px;
+    height: 64px
+}
+
+.content-servicios .view-content .views-row .views-field-body {
+    display: inline-block;
+    vertical-align: middle;
+    width: 74%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding: 5px 10px 5px 0
+}
+
+.content-images .view-content .views-row .views-field-title {
+    background: #337ab7;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px
+}
+
+.content-images .view-content .views-row .views-field-title a {
+    color: white !important;
+    font-size: 1em
+}
+
+.content-images .view-content .views-row .views-field-field-im-genes .field-content {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.content-images .view-content .views-row .views-field-field-im-genes .field-content img {
+    width: 100%
+}
+
+#block-menu-menu-navegacion-rapida a {
+    font-family: BeauNormal;
+    font-size: 1.2em !important;
+    color: #FFF !important
+}
+
+#block-menu-menu-navegacion-rapida a:hover {
+    color: #AAA !important
+}
+
+.lista-estilizada1 {
+    background: whitesmoke
+}
+
+.lista-estilizada1 .pane-title {
+    padding: 6px;
+    color: whitesmoke;
+    margin-top: 0
+}
+
+.lista-estilizada1 .pane-content .view-empty p img {
+    margin: auto
+}
+
+.adunce-bloque{
+    background: #265a84ff;    
+    text-align: center;
+}
+
+#linkToCGDA{
+    padding: 10px;
+    max-width: 340px;
+}
+
+#linkToCGDA a{
+    color: whitesmoke !important;
+}
+
+#incaaBloque .pane-title{
+    color: whitesmoke;    
+    padding: 10px;
+    margin: 0;
+    background: #265a84ff;    
+    text-align: center;
+
+}
+#incaaBloque {
+    max-width: 340px
+}
+
+#twitterBloque{
+    max-height: 500px;
+    max-width: 340px;
+    overflow: auto;
+}
+
+#header .logo img{
+    margin: 10px;
+}
+
 @media (max-width:767px) {
     header#header-container #background {
         background: transparent url("../images/bg-header.png") no-repeat scroll center top;
@@ -8797,7 +8925,8 @@ body {
         border: 0
     }
     header#header-container #background .branding {
-        margin: 2vw
+        text-align: center;
+        margin-top: 10px;
     }
     div#header.container {
         margin: 0 auto;
@@ -8805,14 +8934,15 @@ body {
     }
     #header .logo img {
         margin: 5vw 0;
-        width: 90%;
-        height: 18.5vw
+        width: 80%;
+        //height: 18.5vw
     }
     #slogan {
         clear: right;
-        float: right;
+        float: left;
         color: white;
-        text-align: center
+        text-align: center;
+        padding: 7px;
     }
     .header-highlights .panel-pane {
         position: relative
@@ -8970,6 +9100,8 @@ body {
 }
 
 @media (min-width:768px) and (max-width:991px) {
+    
+
     header#header-container #background {
         background: transparent url("../images/bg-header.png") no-repeat scroll center top;
         background-size: cover;
@@ -8979,18 +9111,18 @@ body {
         border: 0
     }
     header#header-container #background .branding {
-        margin: 2vw
+
     }
     div#header.container {
         margin: 0 auto;
         position: relative
     }
     #header .logo img {
-        width: 200px;
-        height: 50px
+       // width: 200px;
+        height: 80px
     }
     .l-top-navigation {
-        padding: 1em 0
+        padding: 0 0 0 0
     }
     .l-top-navigation>div {
         padding: 0
@@ -9002,7 +9134,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 3vw
+        font-size: 15px;
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
@@ -9011,20 +9143,24 @@ body {
     .l-top-navigation ul>li a div.title {
         display: none
     }
+    #redes-sociales{
+      top: 70px;
+    }
     .l-top-navigation ul>li div.fa {
         color: #BBB
     }
     .l-top-navigation ul>li div.fa:hover {
         color: white
     }
+    #slogan .lead{
+      max-width: 50%;
+    }
     #slogan {
         display: none;
         clear: right;
-        float: right;
+        float: left;
         color: white;
-        position: absolute;
-        bottom: 0;
-        right: 15px
+        top: 80px
     }
     .remove-padding {
         padding: 0
@@ -9097,9 +9233,14 @@ body {
     div#main-menu .block-menu>ul.menu>li>ul>li {
         font-family: BeauNormal
     }
+	div#main-menu .block
     .header-highlights .panel-pane {
         position: relative
     }
+
+	#main-menu ul > li > a, #main-menu ul > li > span{
+	text-transform: uppercase;
+	}
     .header-highlights h2.pane-title {
         position: absolute;
         bottom: 0;
@@ -9117,7 +9258,7 @@ body {
         display: none
     }
     .region-content {
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto
     }
@@ -9171,58 +9312,32 @@ body {
     .panel-flexible {
         margin-top: 30px
     }
-    .content-news .view-content {
+    .content-news .view-content,
+    .content-servicios .view-content,
+    .content-images .view-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
-        padding: 3.33%
+        padding: 0 3.33%
+    }
+    .content-servicios .view-content .views-row,
+    .content-images .view-content .views-row {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 48%
     }
     .content-news .view-content .views-row {
-        background-color: rgba(255, 255, 255, 0.5);
-        width: 48%;
         min-height: 20vw;
+        margin-bottom: 2vw
+    }
+    .content-servicios .view-content .views-row {
         margin-bottom: 2vw;
-        padding-top: 3vw;
-        position: relative
+        min-height: 7vw
     }
-    .content-news .view-content .views-row>.views-field-field-etiquetas {
-        position: absolute;
-        top: 0;
-        background: #0772b3;
-        background: -moz-linear-gradient(left, #0772b3 0, #0092cc 49%, #00a3d8 100%);
-        background: -webkit-linear-gradient(left, #0772b3 0, #0092cc 49%, #00a3d8 100%);
-        background: linear-gradient(to right, #0772b3 0, #0092cc 49%, #00a3d8 100%);
-        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0772b3', endColorstr='#00a3d8', GradientType=1);
-        left: 0;
-        width: 100%;
-        min-height: 2vw;
-        padding: .5vw;
-        color: white
-    }
-    .content-news .view-content .views-row>.views-field-field-etiquetas a {
-        color: white !important
-    }
-    .content-news .view-content .views-row>.views-field-field-etiquetas::before {
-        display: inline
-    }
-    .content-news .view-content .views-row>.views-field-field-etiquetas>div {
-        font-weight: bold;
-        display: inline
-    }
-    .content-news .view-content .views-row .views-field-view-node {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        text-align: right
-    }
-    .content-news .view-content .views-row .views-field-field-imagen .field-content {
-        width: 90%;
-        margin: 0 auto
-    }
-    .content-news .view-content .views-row .views-field-field-imagen .field-content img {
-        width: 100%;
-        height: auto
+    .content-images .view-content .views-row {
+        margin-bottom: 2vw;
+        padding-bottom: 10px
     }
     .panels-flexible-3 .panels-flexible-row.panel-content {
         margin-bottom: 10vw
@@ -9246,27 +9361,35 @@ body {
 }
 
 @media (min-width:992px) {
+    
+
+
     header#header-container #background {
         background: transparent url("../images/bg-header.png") no-repeat scroll center top;
         background-size: cover;
         margin: 0 0;
         width: 100%;
         border-radius: 0;
-        border: 0
+        border: 0;
+        height: 130px;
+        background-position: center 69%;
     }
     header#header-container #background .branding {
-        margin: 2vw
+      top: 10px;
     }
     div#header.container {
         margin: 0 auto;
         position: relative
     }
+    #header .logo{
+
+    }
     #header .logo img {
-        width: 290px;
-        height: 73px
+        //width: 210px;
+        height: 100px
     }
     .l-top-navigation {
-        padding: 1em 0
+        padding: 0 0 0 0
     }
     .l-top-navigation>div {
         padding: 0
@@ -9278,7 +9401,7 @@ body {
         display: inline-block
     }
     .l-top-navigation ul>li a {
-        font-size: 2vw
+        font-size: 1.2vw
     }
     .l-top-navigation ul>li a:hover,
     .l-top-navigation ul>li a:focus {
@@ -9287,19 +9410,26 @@ body {
     .l-top-navigation ul>li a div.title {
         display: none
     }
+    #redes-sociales{
+      top: 55px;
+    }
     .l-top-navigation ul>li div.fa {
+        font-size: 18px;
         color: #BBB
     }
     .l-top-navigation ul>li div.fa:hover {
         color: white
     }
+    #slogan .lead{
+      max-width: 66%;
+      font-size: 18px;
+    }
     #slogan {
         clear: right;
-        float: right;
+        float: left;
         color: white;
-        position: absolute;
-        bottom: 0;
-        right: 15px
+        top: 50px;
+        padding-left: 41px;
     }
     .remove-padding {
         padding: 0
@@ -9372,13 +9502,16 @@ body {
     div#main-menu .block-menu>ul.menu>li>ul>li {
         font-family: BeauNormal
     }
+	#main-menu ul > li > a, #main-menu ul > li > span{
+	text-transform: uppercase;
+	}
     .header-highlights .panel-pane {
         position: relative
     }
     .header-highlights h2.pane-title {
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: 0;pal. I need some guidance to change the font and style of the articles. Please can anybody help me
         background-color: rgba(0, 0, 0, 0.75);
         padding: .5vw;
         color: #FFF;
@@ -9392,7 +9525,6 @@ body {
         display: none
     }
     .region-content {
-        width: 80%;
         margin-left: auto;
         margin-right: auto
     }
@@ -9406,7 +9538,7 @@ body {
         border-bottom: #3377AA 1px solid
     }
     .region-content .content-menu .panel-pane .pane-content ul.menu>li.active {
-        background-color: #BBB
+        background-color: #fff
     }
     .region-content .content-menu .panel-pane .pane-content ul.menu>li.active a {
         color: white
@@ -9446,82 +9578,24 @@ body {
     .panel-flexible {
         margin-top: 30px
     }
-    .content-news .view-content {
+    .content-news .view-content,
+    .content-servicios .view-content,
+    .content-images .view-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
         padding: 0 3.33%
     }
-    .content-news .view-content .views-row {
-        background-color: rgba(255, 255, 255, 0.5);
-        width: 48%;
-        min-height: 20vw;
+
+
+    .content-servicios .view-content .views-row {
         margin-bottom: 2vw;
-        padding-top: 3vw;
-        position: relative
+        min-height: 7vw
     }
-    .content-news .view-content .views-row>.views-field-field-etiquetas {
-        position: absolute;
-        border-bottom: 1px solid #ccc;
-        top: 0;
-        background: transparent;
-        left: 0;
-        width: 90%;
-        margin: 5px;
-        color: white
-    }
-    .content-news .view-content .views-row>.views-field-field-etiquetas a {
-        color: #333;
-        font-weight: normal
-    }
-    .content-news .view-content .views-row>.views-field-field-etiquetas::before {
-        display: inline
-    }
-    .content-news .view-content .views-row>.views-field-field-etiquetas>div {
-        font-weight: bold;
-        display: inline
-    }
-    .content-news .view-content .views-row .views-field-field-fecha {
-        position: absolute;
-        top: 94%;
-        left: 0;
-        width: 100%;
-        background-size: 100%;
-        text-align: right;
-        color: #337ab7;
-        padding-right: 3%
-    }
-    .content-news .view-content .views-row .views-field-field-fecha .field-content {
-        display: inline
-    }
-    .content-news .view-content .views-row .views-field-title {
-        background: url(/web/sites/all/themes/adunceth_responsive/images/adunce-header.png) no-repeat;
-        background-size: 100%;
-        padding: 34% 13% 11px 13%;
-        text-align: center
-    }
-    .content-news .view-content .views-row .views-field-title a {
-        color: #db2f2c
-    }
-    .content-news .view-content .views-row .views-field-view-node {
-        position: absolute;
-        top: 94%;
-        width: 100%;
-        text-align: center
-    }
-    .content-news .view-content .views-row .views-field-body {
-        margin: 0 5%;
-        padding-top: 5%;
-        border-top: 1px solid #cccccc
-    }
-    .content-news .view-content .views-row .views-field-field-imagen .field-content {
-        width: 90%;
-        margin: 0 auto
-    }
-    .content-news .view-content .views-row .views-field-field-imagen .field-content img {
-        width: 100%;
-        height: auto
+    .content-images .view-content .views-row {
+        margin-bottom: 2vw;
+        padding-bottom: 10px
     }
     ul.pagination li.active a {
         background-color: rgba(51, 122, 183, 0.5)
@@ -9681,5 +9755,12 @@ body {
     footer .footer-bottom #footer-inside ul.menu.nav li:last-child a:hover {
         color: rgba(69, 144, 233, 0.5);
         background: none
+    }
+}
+
+
+@media (min-width: 1200px){
+    #slogan {
+        top: 70px;
     }
 }

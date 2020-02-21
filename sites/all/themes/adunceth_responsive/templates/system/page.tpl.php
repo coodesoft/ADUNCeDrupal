@@ -157,7 +157,6 @@
     <div id="footer-container">
       <?php print render($page['footer']); ?>
     </div>
-
     <div id="footer-line-top"></div>
     <div class="clearfix"></div>
     <div class="footer-bottom">
