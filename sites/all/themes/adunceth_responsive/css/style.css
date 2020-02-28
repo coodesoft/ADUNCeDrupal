@@ -9800,3 +9800,13 @@ body {
 		margin-top: 30px;
 	}
 }
+
+@media (max-width: 1400px){
+	#block-views-instituciones-afines-block div div div ul li div div a.ext {
+		position: absolute;
+		width: 260px;
+		height:80px;
+		margin-top:-65px;
+		opacity: 0;
+	}
+}
